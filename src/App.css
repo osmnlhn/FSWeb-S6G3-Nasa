@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.Date {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Img {
+  display: flex;
+  justify-content: center;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  color: black;
+
+}
+
+.Footer{
+  display: flex;
+  justify-content: center;
+}
+
+.Explanation{
+  display: flex;
+  justify-content: center;
+}
+.Explanation::nth-word(1){
+  color: black;
+}
+
