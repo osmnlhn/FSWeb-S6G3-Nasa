@@ -1,9 +1,9 @@
 import React from "react";
 
 function Content(props) {
-    let nasaverisi = props.nasaverisi;
+    const  nasaverisi = props.nasaverisi;
     return (
-        <>
+        <>  {nasaverisi &&  <p>Yukleniyor..</p>}
             {nasaverisi && <p>Date: {nasaverisi.date}</p>}
             {nasaverisi && <img src={nasaverisi.url} alt={nasaverisi.title}/>}
             {nasaverisi && <h3>{nasaverisi.title}</h3>}
